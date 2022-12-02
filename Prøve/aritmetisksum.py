@@ -1,5 +1,4 @@
-#regner ledd og summen av rekken i samme funksjon
 def aritsum(a1,d,n):
     return ((a1 + (a1 + (n-1) * d)) / 2) * n
 
-print(aritsum(18,12,480))
+print(aritsum(18,12,200))
